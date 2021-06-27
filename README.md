@@ -19,7 +19,7 @@ Essa aplicação foi criada e desenvolvida pelo <a href="https://www.linkedin.co
 <li>Annotations - Java;
 <li>Realizar requisições e documentá-las;
 
-# Observações
+## Observações
 <p>Na pasta 'main -> resources' e arquivo 'application.properties' linha 34:</p>
 
 ``` spring.datasource.url=jdbc:h2:file: ```
@@ -28,3 +28,5 @@ Essa aplicação foi criada e desenvolvida pelo <a href="https://www.linkedin.co
 <p>Deparou-se com erros ao final do projeto ao configurar o 'application.properties' para acessar o h2 e datasources, o que foi de grande valia para experiências futuras ao se deparar com a mesma dificuldade.</p>
 
 
+## Documentação
+<a href="https://github.com/alfeups/apirest-gerenc-ponto-acesso/blob/master/apirest-ponto%26acesso.postman_collection.json">Post%Put</a>
