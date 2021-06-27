@@ -29,4 +29,4 @@ Essa aplicação foi criada e desenvolvida pelo <a href="https://www.linkedin.co
 
 
 ## Documentação
-<a href="https://github.com/alfeups/apirest-gerenc-ponto-acesso/blob/master/apirest-ponto%26acesso.postman_collection.json">Post%Put</a>
+<a href="https://github.com/alfeups/apirest-gerenc-ponto-acesso/blob/master/apirest-ponto%26acesso.postman_collection.json">Post e Put</a>
