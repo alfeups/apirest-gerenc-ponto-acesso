@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "apirest-ponto&acesso",
+		"_postman_id": "05440f66-d5ff-4e8c-1344-879f01129fb0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post - Jornada_trabalho",
+			"request": {
+				"url": "http://localhost:8081/jornada",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"descricao\": \"pj\"\n}"
+				},
+				"description": "Cadastrar o tipo de jornada de trabalho"
+			},
+			"response": []
+		},
+		{
+			"name": "Put - Jornada_trabalho",
+			"request": {
+				"url": "http://localhost:8081/jornada",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"id\": 1,\n\"descricao\": \"pj\"\n}\n"
+				},
+				"description": "Updating o tipo de jornada de trabalho"
+			},
+			"response": []
+		}
+	]
+}
